@@ -56,9 +56,9 @@ nav a {
 }
 .header {
     background-color: rgb(219, 230, 240);
-    background-image: url('images/header.jpg'), url("images/developer.png");
+    background-image:url("images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right, top left;
+    background-position:  top left;
 }
 .banner {
     padding: 50px 40px 0px 160px;
