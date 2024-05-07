@@ -159,3 +159,45 @@ main {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
+#I-do {
+    padding: 30px 140px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px ;
+    padding-right: 2%;
+    padding-bottom: 30px;
+}
+
+.skill {
+    border: 2px solid white;
+    box-shadow: 10px 10px 5px whitesmoke;
+    gap: 25px;
+    margin-right: 2px;
+    padding-left: 5px;
+    padding-right: 1.2px;
+
+}
+main section {
+    margin-top: 130px;
+}
+.skill-description {
+    color: darkolivegreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
