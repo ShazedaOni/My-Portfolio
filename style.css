@@ -230,7 +230,9 @@ main {
 .about-info-container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+
+    text-align: center;
 }
 .about-info {
     text-align: center;
