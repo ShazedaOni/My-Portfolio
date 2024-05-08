@@ -14,13 +14,13 @@ body {
 
 }
 .logo {
-    color: burlywood;
+    color: salmon;
 }
 .btn-primary {
-    background-color: burlywood;
+    background-color: transparent;
     border-radius: 5px;
-    border: 0;
-    color: #000000;
+    border: 1px solid salmon;
+    color: whitesmoke;
     font-weight: 700;
     font-size: 20px;
     padding: 15px 40px;
@@ -47,18 +47,22 @@ nav li {
 }
 nav a {
     text-decoration: none;
-    color: #474747;
+    color: salmon;
 
+}
+nav a:hover {
+    color: #474747;
 }
 .list {
     /* display: flex; */
     justify-content: space-between;
 }
 .header {
-    background-color: rgb(219, 230, 240);
-    background-image:url('images/header.jpg'),url("images/developer.png");
+    background-color: black;
+    background-image:url('images/WhatsApp\ Image\ 2024-05-08\ at\ 3.26.14\ PM.jpeg'),url("images/developer.png");
     background-repeat: no-repeat;
     background-position:bottom right,  top left;
+    opacity: 0.74;
 }
 .banner {
     padding: 50px 40px 0px 160px;
@@ -78,36 +82,49 @@ nav a {
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 20px;
-    color: #1b4269;
-    margin-left: -85px;
+    color:  salmon;
+    margin-left: -99px;
 }
 .banner-description {
     font-size: 20px;
     font-weight: 300;
-    color: #060271;
+    color: gray;
     margin-top: 3px;
     margin-bottom: 7%;
-    margin-left: -85px ;
+    margin-left: -99px ;
 }
 .btn-primary2 {
-    background-color: #fff8f3;
+    background-color: transparent;
      border-radius: 5px;
-     color: burlywood;
+     color: white;
      font-weight: 700;
      font-size: 20px;
      padding: 15px 40px;
-     border: 1.5px solid burlywood;
+     border: 1.5px solid  salmon;
 }
 .btn-primary1 {
-    background-color: burlywood;
+    background-color: transparent;
     border-radius: 5px;
-    border: 0;
-    color: #000000;
+    border: 1px solid salmon;
+    color:  whitesmoke;
     font-weight: 700;
     font-size: 20px;
     padding: 15px 40px;
-    margin-left: -85px;
+    margin-left: -99px;
+    margin-bottom: 10px;
 
+}
+.btn-primary:hover {
+   background-color: salmon;
+   
+    cursor: pointer;
+}
+.btn-primary1:hover {
+    background-color: salmon;
+}
+.btn-primary2:hover {
+    background-color: salmon;
+    color: #1b4269;
 }
 .banner-content {
     max-width: 500px;
