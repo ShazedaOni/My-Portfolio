@@ -136,6 +136,69 @@ nav a:hover {
 
   
 }
+ /* Styles for desktop */
+@media (min-width: 1024px) {
+    header {
+        font-size: 24px;
+    }
+}
+   /* Styles for laptops */
+@media (max-width: 1023px) and (min-width: 768px) {
+    header {
+        font-size: 20px;
+    }
+}
+      
+
+        /* Tablet */
+        @media (min-width: 992px) and (max-width: 1199px) {
+            header {
+                font-size: 22px;
+            }
+        }
+
+        /* Desktop */
+        @media (min-width: 1200px) {
+            header {
+                font-size: 24px;
+            }
+        }
+       
+        /* Mobile-S */
+        @media (max-width: 374px) {
+            header {
+                font-size: 16px;
+            }
+        }
+
+        /* Mobile-M */
+        @media (min-width: 375px) and (max-width: 424px) {
+            header {
+                font-size: 18px;
+            }
+        }
+
+        /* Mobile-L */
+        @media (min-width: 425px) and (max-width: 767px) {
+            header {
+                font-size: 20px;
+            }
+        }
+
+        /* Tablet */
+        @media (min-width: 768px) and (max-width: 1439px) {
+            header {
+                font-size: 22px;
+            }
+        }
+
+        /* Laptop */
+        @media (min-width: 1440px) {
+            header {
+                font-size: 24px;
+            }
+        }
+
 .about {
     padding: 130px;
     background-color: #fff8f3;
@@ -171,6 +234,7 @@ main {
 }
 .about-info {
     text-align: center;
+    justify-content: space-evenly;
 }
 .info-title{
     font-size: medium;
