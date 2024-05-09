@@ -18,7 +18,7 @@ body {
 }
 .btn-primary {
     background-color: transparent;
-    border-radius: 10px;
+    border-radius: 14px;
     border: 1px solid salmon;
     color: whitesmoke;
     font-weight: 700;
@@ -98,7 +98,7 @@ nav a:hover {
 }
 .btn-primary2 {
     background-color: transparent;
-     border-radius: 10px;
+     border-radius: 15px;
      color: white;
      font-weight: 700;
      font-size: 12px;
@@ -107,7 +107,7 @@ nav a:hover {
 }
 .btn-primary1 {
     background-color: transparent;
-    border-radius: 10px;
+    border-radius: 15px;
     border: 1px solid salmon;
     color:  whitesmoke;
     font-weight: 700;
