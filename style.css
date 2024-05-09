@@ -244,13 +244,44 @@ main section {
     padding-top: 5px;
 }
 
+.resume-container {
+    display: flex;
+    gap: 40px;
+    justify-content: space-evenly;
+    background-color: rgb(181, 216, 217);
+}
+.resume-item-description{
+    justify-content: space-evenly;
+    color: darkolivegreen;
+    font-size: 13px;
+    font-weight: 600;
+}
+.summary {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+hr {
+    color: aquamarine;
+}
 
+.resume-col-title{
+    padding-top: 8px;
+    color: #1b4269;
+    font-size: 35px;
+    text-decoration: overline;
+    font-weight: 500;
+}
 
+.resume-item-title {
+    color: #474747;
+    font-size: 20px;
+}
 
-
-
-
-
+.resume-item-institution{
+    color: #474747;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 
 
