@@ -142,7 +142,7 @@ nav a:hover {
 
 .about {
     padding: 130px;
-    background-color: #fff8f3;
+    background-color: lightgray;
     border-radius: 10px;
     border: 0;
     margin: 130px 0;
@@ -152,7 +152,7 @@ nav a:hover {
 
 }
 .section-title {
-    color: #283848;
+    color: #1b4269;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
@@ -160,7 +160,7 @@ nav a:hover {
     padding-bottom: 40px;
 }
 .section-description {
-    color: #757575;
+    color: gray;
     text-align: center;
     font-size: 10px;
     font-weight: 800;
@@ -198,7 +198,8 @@ main {
     gap: 20px;
 }
 #I-do {
-    padding: 30px 140px;
+   
+    padding-bottom: 75px;
 }
 
 .skills-container {
@@ -207,11 +208,12 @@ main {
     padding-top: 5px ;
     padding-right: 2%;
     padding-bottom: 30px;
+    gap: 40px;
 }
 
 .skill {
     border: 2px solid white;
-    box-shadow: 10px 10px 5px whitesmoke;
+    box-shadow: 2px 3px 5px #1b4269;
     gap: 25px;
     margin-right: 2px;
     padding-left: 5px;
@@ -223,11 +225,24 @@ main section {
 }
 .skill-description {
     color: darkolivegreen;
+    font-size: 12px;
+    font-weight: 700;
 }
 
+.what {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+}
 
-
-
+.skill-title {
+    color: #1b4269;
+    font-size: 15px;
+    font-weight: 300;
+}
+.what img {
+    padding-top: 5px;
+}
 
 
 
